@@ -1,0 +1,93 @@
+.eventForm {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+}
+
+.eventForm h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #222;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form input,
+.form select,
+.form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.form button {
+  background-color: #111;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.form button:hover {
+  background-color: #333;
+}
+
+
+@media (max-width: 768px) {
+  .eventForm {
+    margin: 20px 4vw;
+    padding: 16px;
+    border-radius: 6px;
+    max-width: 100%; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .eventForm h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    
+  }
+
+  .form {
+    
+    gap: 12px;
+    
+  }
+
+  .form input,
+  .form select,
+  .form textarea {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .form textarea {
+    height: 80px;
+  }
+
+  .form button {
+    padding: 10px;
+    font-size: 15px;
+  }
+}

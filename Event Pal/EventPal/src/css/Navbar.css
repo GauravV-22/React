@@ -1,0 +1,106 @@
+.Nav{
+  background-color: #111;
+}
+
+.navBar {
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  min-height: 10vh;
+  margin-left: 10vh;
+}
+
+.navBar h1 {
+  font-size: 40px;
+  margin: 0;
+  flex-shrink: 0;
+  color: #A9A9A9;
+}
+
+.navLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-left: 15vh;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 4px 6px;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}.Nav{
+  background-color: #111;
+
+
+}
+
+.navBar {
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  min-height: 10vh;
+  margin-left: 10vh;
+}
+
+.navBar h1 {
+  font-size: 40px;
+  margin: 0;
+  flex-shrink: 0;
+  color: #A9A9A9;
+}
+
+.navLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-left: 15vh;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 4px 6px;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .navBar {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+    padding: 2vh 4vw;
+    gap: 2vh;
+  }
+
+  .navBar h1 {
+    font-size: 5vw;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    gap: 2vh;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .navLinks a {
+    font-size: 4.5vw;
+    padding: 1vh 2vw;
+  }
+}
